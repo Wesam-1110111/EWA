@@ -183,6 +183,10 @@ footer {
   height: 52px;
   width: 52px;
 }
+
+#input-box{
+  width: 40%;
+  }
 .footer {
   margin: 25px 0;
 }
