@@ -6,7 +6,7 @@
   --bg-color: #f1f5f8;
 } */
 :root {
-  --bg-color: rgb(246, 244, 244);
+  --bg-color: rgb(226, 226, 226);
   --text-color: #282c35;
   --clr-primary: rgb(11, 211, 11);
   --clr-title: #282c35;
@@ -82,17 +82,20 @@ header {
 }
 .light-btn {
   cursor: pointer;
+  transition: all 0s !important;
   /* transition: all 0.3s ease 0s; */
-  transition: var(--page-transition);
+  /* transition: var(--page-transition); */
   margin-top: -10px;
   margin-right: 10px;
+  border-radius: 50%;
 }
 .dark-btn {
   /* padding: 9px 25px; */
   /* border: none;
   border-radius: 50px; */
   cursor: pointer;
-  transition: var(--page-transition);
+  transition: all 0s !important;
+  border-radius: 50%;
 
   /* transition: all 0.3s ease 0s; */
   /* background-color: rgba(0, 136, 169, 1); */
